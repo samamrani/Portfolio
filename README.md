@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Portfolio de Samira Atmani
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur mon portfolio ! Ce projet présente mes compétences, réalisations et expériences en développement web et en développement d'applications. Actuellement, je suis développeuse junior et mon objectif est de devenir développeuse senior. Je suis passionnée par la technologie et j'ai hâte d'apprendre et de grandir dans ce domaine. Mon expérience inclut la création de sites web, l'optimisation des performances d'application et la transformation d'applications existantes en utilisant des technologies modernes comme React.
 
-## Available Scripts
+## Sommaire
 
-In the project directory, you can run:
+- [À propos](#à-propos)
+- [Compétences](#compétences)
+- [Projets](#projets)
+- [Contact](#contact)
 
-### `npm start`
+## À propos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Je suis Samira Atmani, développeuse d'application en JavaScript-React. Je suis actuellement à la recherche d'une opportunité ou d'une alternance pour approfondir mes compétences et apprendre davantage. Mon expérience inclut la création de sites web, l'optimisation des performances d'application et la transformation d'applications existantes en utilisant des technologies modernes comme React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Compétences
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Langages de programmation
 
-### `npm run build`
+- JavaScript
+- PHP
+- SQL
+- React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Technologies web
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML
+- CSS
+- Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Outils de développement
 
-### `npm run eject`
+- Visual Studio Code
+- Figma
+- Adobe XD
+- Photoshop
+- Illustrator
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Gestion de projet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Agile
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Projets
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Voici quelques-uns des projets que j'ai réalisés :
 
-## Learn More
+1. **HRnet** - Transformation d'une application web interne en utilisant React.
+2. **Booki** - Création d'une application de réservation de logements en React.
+3. **Elite Carrosserie** - Développement d'un site vitrine avec un back office pour une carrosserie.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pour voir l'ensemble de mes projets, consultez mon GitHub : [GitHub Profile](https://github.com/samamrani)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
 
-### Code Splitting
+Vous pouvez me contacter via les liens suivants :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [LinkedIn](https://www.linkedin.com/in/samira-atmani)
+- [GitHub](https://github.com/samamrani)
+- Email : erp.atmanis@gmail.com
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Merci de visiter mon portfolio !
