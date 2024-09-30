@@ -1,0 +1,25 @@
+
+  .nav-list,
+  .social-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list li,
+  .social-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list a,
+  .social-list a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  
+    &:hover {
+      color: #007BFF; 
+    }
+  }
+  
