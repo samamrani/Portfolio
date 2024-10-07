@@ -11,6 +11,10 @@ header{
   align-items: center; 
   margin-top: -60px;
   margin-left: 40px;
+  align-items: center;   
+     
+  position: relative;
+ 
 
   .contact-info {
     display: flex;
@@ -83,4 +87,17 @@ header{
       font-size: 14px; 
     }
   }
+}
+
+.overlay {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100vw; 
+  height: 100vh; 
+  background-color: rgba(177, 67, 67, 0.7); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  z-index: 999; 
 }

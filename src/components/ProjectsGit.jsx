@@ -10,13 +10,13 @@ const Projects = () => {
       <div className="profile">
         <h2>Mes Projets</h2>
       </div>
-
-      <div className="projects-list">
-        <GithubRepos />
-      </div>
-      <div className="profile">
-          <Realisation />   
-      </div>
+    
+        <div className="projects-list">
+          <GithubRepos />
+        </div>
+        <div className="profile">
+            <Realisation />   
+        </div>
     
     </section>
   );

@@ -15,7 +15,7 @@ function ProjetDetails({ name, description, link }) {
         </button>
 
         {isVisible && (
-          <div>
+          <div className='visite'>
             <p className="fs-6">{description}</p>
             <a href={link} target="_blank" rel="noopener noreferrer">
               Visitez le site
