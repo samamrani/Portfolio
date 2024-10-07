@@ -14,9 +14,13 @@ ul {
 
   }
 
-
+.photo-picture img{
+width: 10%;
+border-radius: 50%;
+object-fit: cover;
+}
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
   background-color: #f4f4f4;

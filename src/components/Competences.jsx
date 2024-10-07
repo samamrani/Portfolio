@@ -1,11 +1,9 @@
 import React from 'react';
-import '../styles/main.scss'; // Assurez-vous d'avoir un fichier de style
+import '../styles/main.scss'; 
 
-const Competences = () => {
+function Competences(){
   return (
-    <section className="container competences" id="competence">
-      <h1>Compétences</h1>
-
+    <>
       <div className="competences-grid">
         <div>
           <h3>Langages de programmation</h3>
@@ -64,8 +62,10 @@ const Competences = () => {
 
        
       </div>
-    </section>
-  );
-};
+      </>
+ 
+  )
+}
+
 
 export default Competences;

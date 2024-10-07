@@ -1,6 +1,6 @@
 const API_URL = 'https://api.github.com/users/samamrani/repos';
 
-export const fetchGithubRepos = async () => {
+export const fetchReposGit = async () => {
   try {
     const response = await fetch(API_URL);
     if (!response.ok) {

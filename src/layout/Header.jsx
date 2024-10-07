@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles/main.scss';
+import { Link } from 'react-router-dom'; 
 import imgNature from '../assets/img.jpg'; 
 
-import InformPerso from '../components/InformationPerso';
 import Spinner from '../components/Spinner'; 
+
 
 function Header({ loading }) { 
   return (
@@ -13,25 +14,26 @@ function Header({ loading }) {
       </div>
       <div className="header-content">
         <div className="contact-info">
-          <div className="photo-picture">
+          {/* <div className="photo-picture">
             <img src={imgNature} alt="Nature" /> 
-          </div>
+          </div> */}
           <nav>
             <ul className="nav-list">
               {loading ? <Spinner /> : (
                 <>
-                  <li><a href="#apropos">À propos</a></li>
-                  <li><a href="#projects">Projets</a></li>
-                  <li><a href="#competence">Compétences</a></li>
-                  <li><a href="#experiences">Expériences</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                  <li><Link to="/home">Accueil</Link></li>
+                  <li><Link to="/apropos">À propos</Link></li>
+                  <li><Link to="/projets">Projets</Link></li>
+                  
+                  <li><Link to="/cv">CV</Link></li>
+                  <li><Link to="/contact">Contact</Link></li>
                 </>
               )}
             </ul>
           </nav>
         </div>
       </div>
-      <div className='info'> <InformPerso /> </div>
+      {/* <div className='info'> <InformPerso /> </div> */}
    
       {loading && (
         <div className="overlay">

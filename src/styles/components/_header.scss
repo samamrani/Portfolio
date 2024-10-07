@@ -6,39 +6,43 @@ header{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
  }
-.header-content {
-  display: flex;
-  align-items: center; 
-  margin-top: -60px;
-  margin-left: 40px;
-  align-items: center;   
-     
-  position: relative;
- 
-
-  .contact-info {
-    display: flex;
-    align-items: center; 
-  //  gap: 20px;
-  
-    .photo-picture {  
-      img {
-        width: 150px; 
-        height: 150px; 
-        border-radius: 50%; 
-        object-fit: cover; 
+ .header-content {
+  nav {
+    .nav-list {
+      display: flex;
+      justify-content: center; 
+      list-style: none;
+      gap: 20px; 
+      
+      li {
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          color: #333;
+          transition: color 0.3s ease;
+          
+          &:hover {
+            color: #0056b3;
+          }
+        }
       }
-    }
-
-   
   }
 }
-
+ }
 .profile-picture img{
  
   width: 100%; 
   border-top-left-radius: 10px;
   border-top-right-radius: 10PX;
+  height: 180px;
+  object-fit: cover;
+
+}
+
+.photo-picture img{
+ 
+  
+border-radius: 20px;
   height: 150px;
   object-fit: cover;
 

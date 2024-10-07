@@ -1,39 +1,30 @@
-import React, { useEffect, useState } from 'react';
-import Header from './layout/Header'; 
-import Contact from './components/Contact';  
-import Footer from './layout/Footer';  
-import Exeperiences from './components/Exeperiences';
-import ProjectsGit from './components/ProjectsGit';
-import Competences from './components/Competences';
-import Apropos from './components/Apropos';
-import Spinner from './components/Spinner';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import Header from './layout/Header';
+import Contact from './components/Contact';
+import Footer from './layout/Footer';
+import Home from './pages/Home';
+import Exeperience from './pages/Exeperience';
+import ProjectsGit from './pages/ProjetGit';
+import Competence from './pages/Competence';
+import Apropos from './pages/Apropos';
+import Cv from './pages/Cv';
 
 function App() {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-   
-    const timer = setTimeout(() => {
-      setLoading(false); 
-    }, 2000);
-
-    return () => clearTimeout(timer); 
-  }, []);
-
   return (
-    <>
+    <Router>
       <Header />
-      {loading ? <Spinner /> : (
-        <>
-          <Apropos /> 
-          <ProjectsGit />
-          <Exeperiences />
-          <Competences />
-          <Contact />
-          <Footer />
-        </>
-      )}
-    </>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/apropos" element={<Apropos />} />
+        <Route path="/projets" element={<ProjectsGit />} />
+        <Route path="/experience" element={<Exeperience />} />
+        <Route path="/competence" element={<Competence />} />
+        <Route path="/cv" element={<Cv />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 

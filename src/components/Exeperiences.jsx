@@ -3,14 +3,13 @@ import React from 'react'
 
 function Exeperiences() {
   return (
-    <section className="container experiences" id='experiences'>
-    <h1>Expériences Professionnelles</h1>
+   
     <div className="job">
      
       <h3>Développeuse Web et Web Mobile – Stage</h3>
         <p> Développement d'un site vitrine</p>
     
-      <h3>Assistante administrative – Stage</h3>
+        <h3>Assistante administrative – Stage</h3>
         <p> Conservatoire de musique et de danse, Forbach | 2018-2019 <br /></p>
         <p>Gestion des dossiers étudiants et organisation d’événements.</p>
         <h3>Assistante administrative – Stage</h3>
@@ -20,7 +19,7 @@ function Exeperiences() {
         <p>Gestion des contrats</p>
      
     </div>
-  </section>
+ 
   )
 }
 
