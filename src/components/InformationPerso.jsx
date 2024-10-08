@@ -5,7 +5,7 @@ import '../styles/main.scss';
 function InformPerso() {
   return (
 
-    <div className="container">
+    <div className="container info">
        
         <h1>Samira ATMANI</h1>
         <p>Développeuse Web</p>

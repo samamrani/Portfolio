@@ -5,11 +5,11 @@ import InformPerso from '../components/InformationPerso';
 
 function Cv() {
   return (
-    <section>
+    <>
       <InformPerso />
       <Competence />
       <Exeperience />
-    </section>
+    </>
   );
 }
 

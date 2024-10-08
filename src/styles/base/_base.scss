@@ -2,7 +2,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background: linear-gradient(90deg, #1e3c72, #2a5298); 
   font-family: Arial, sans-serif;
   background-color: #333;
 }
@@ -11,28 +10,37 @@ ul {
   list-style: none;
   padding: 0;
   color: #007bff;
-
-  }
-
-.photo-picture img{
-width: 10%;
-border-radius: 50%;
-object-fit: cover;
 }
+
+.photo-picture img {
+  width: 10%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .container {
   max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+  width: 100%;
+  margin: 0 auto; 
+  padding: 0 20px;
   background-color: #f4f4f4;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section{
+.info {
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
   margin: 50px auto;
-    padding: 20px;
-    background-color: #f9f9f9; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 p {
@@ -40,18 +48,17 @@ p {
   line-height: 1.8;
   color: #666;
   padding: 0 20px;
-  text-align: justify; 
+  text-align: justify;
 }
-
 
 h2 {
   color: #333;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 2rem;
-  color: #333; 
+  color: #333;
   margin-bottom: 30px;
 }
 
@@ -64,18 +71,16 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #0056b3;
-  }
 }
 
+button:hover {
+  background-color: #0056b3;
+}
 
 @media (max-width: 768px) {
   .container {
     padding: 15px;
-    max-width: 95%; 
+    max-width: 95%;
   }
 }
-
 

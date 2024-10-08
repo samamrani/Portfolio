@@ -1,6 +1,6 @@
 function Apropos(){
     return (
-        <section className="container apropos" id='apropos'>  
+        <section className="container info" id='apropos'>  
           <h1>À propos de ce Portfolio</h1>
             <p>Bienvenue sur mon portfolio ! Ce projet a été développé en utilisant React pour 
             la partie frontend et SCSS pour le style.

@@ -1,71 +1,21 @@
 import React from 'react';
-import '../styles/main.scss'; 
+import '../styles/main.scss';
+import data from '../data/competences.json'
 
-function Competences(){
+function Competences() {
+
   return (
-    <>
-      <div className="competences-grid">
-        <div>
-          <h3>Langages de programmation</h3>
-          <p>
-            JavaScript <br />
-            PHP <br />
-            SQL <br />
-            React
-          </p>
-        </div>
-
-        <div>
-          <h3>Technologies web</h3>
-          <p>
-            HTML <br />
-            CSS <br />
-            Bootstrap
-          </p>
-        </div>
-
-        <div>
-          <h3>Outils de développement</h3>
-          <p>
-            Visual Studio Code<br />
-            Figma<br />
-            Adobe XD<br />
-            Photoshop<br />
-            Illustrator
-          </p>
-        </div>
-
-        <div>
-          <h3>Autres compétences</h3>
-          <p>
-            Autonomie<br />
-            Prise de décision<br />
-            Adaptation rapide<br />
-            Gestion du stress
-          </p>
-        </div>
-        
-        <div>
-          <h3>Autres outils</h3>
-          <p>
-            Git<br />
-            GitHub
-          </p>
-        </div>
-
-        <div>
-          <h3>Gestion de projet</h3>
-          <p>
-            Agile
-          </p>
-        </div>
-
-       
+    <section className="competences-grid">
+      <div className="grid-container">
+        {data.map((comp, index) => (
+          <div className="competence" key={index}>
+            <h3>{comp.titre}</h3>
+            <p>{comp.contenu}</p>
+          </div>
+        ))}
       </div>
-      </>
- 
-  )
+    </section>
+  );
 }
-
 
 export default Competences;

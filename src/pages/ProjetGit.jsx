@@ -11,20 +11,19 @@ function ProjetGit() {
   };
 
   return (
-    <section className="container" id="projects">
+    <section className="container info" id="projects">
       <div className="profile">
         <h2>Mes Projets</h2>
       </div>
       <div className="projects-list">
         <ReposGit />
-      </div>
-      <>
+      </div> 
+    
         {data.map((project, index) => (
-          <div key={index}>
+          <div className='projet-php' key={index}>
             <button className="text-white btn" onClick={() => toggleDetails(index)}>
               {project.name}
             </button>
-
             {visibleIndex === index && (
               <div className='visite'>
                 <p className="fs-6">{project.description}</p>
@@ -35,7 +34,7 @@ function ProjetGit() {
             )}
           </div>
         ))}
-      </>
+   
     </section>
   );
 }

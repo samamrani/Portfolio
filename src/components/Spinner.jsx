@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/main.scss'; 
-import samPhoto from '../assets/Sam.png'; 
+import imgNature from '../assets/img.jpg'; 
 
 function Spinner() {
     return (
         <div className="spinner"> 
-            <img src={samPhoto} alt="Portrait de Sam" /> 
+            <img src={imgNature} alt="Nature" /> 
         </div>
     );
 }

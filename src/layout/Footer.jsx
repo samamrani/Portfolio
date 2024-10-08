@@ -5,7 +5,7 @@ import '../styles/main.scss';
 
 const Footer = () => {
   return (
-    <footer className="container">
+    <footer className="container info">
       <div className="footer-content">
         <ul className="social-list">
           <li>&copy; 2024 Mon Portfolio. Tous droits réservés.</li>

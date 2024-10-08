@@ -1,0 +1,60 @@
+.visite p{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+ 
+       
+  a {
+    margin-top: 5px;
+    display: inline-block;
+    color: #007bff;
+  }
+ 
+}
+.repos{
+  color: black;
+}
+  .profile h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+  }
+ 
+  .projects-list, .projet-php{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    
+  }
+
+  .btn {
+
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    a {
+      color: #007bff;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+
+
+

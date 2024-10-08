@@ -4,8 +4,6 @@ import { fetchReposGit } from '../services/fetchGithubRepos';
 import Spinner from './Spinner';
 import projet from '../data/projet.json'
 
-
-
 const ReposGit = () => {
   const [repos, setRepos] = useState([]);
   const [error, setError] = useState(null);
@@ -35,13 +33,13 @@ if(loading){return <Spinner />}
   }
 
   return (
-    <div className="container github-repos">
+    <div className="container info">
       
       {projet.length > 0 ? (
-        <ul>
+        <ul className='repos'>
           {repos.map((repo) => (
-            <li key={repo.id}>
-              <p>{repo.description}</p>
+            <li key={repo.id}><br />
+             {repo.description} :
               <a  href={repo.html_url} target="_blank" rel="noopener noreferrer">
               {repo.name}
               </a>

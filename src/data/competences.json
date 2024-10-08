@@ -1,0 +1,27 @@
+[
+    {
+        "titre": "Langages de programmation",
+        "contenu": "JavaScript, PHP, SQL, React"
+      },
+      {
+        "titre": "Technologies web",
+        "contenu": "HTML, CSS, Bootstrap"
+      },
+      {
+        "titre": "Outils de développement",
+        "contenu": "Visual Studio Code, Figma, Adobe XD, Photoshop, Illustrator"
+      },
+      {
+        "titre": "Autres compétences",
+        "contenu": "Autonomie, Prise de décision, Adaptation rapide, Gestion du stress"
+      },
+      {
+        "titre": "Autres outils",
+        "contenu": "Git, GitHub"
+      },
+      {
+        "titre": "Gestion de projet",
+        "contenu": "Agile"
+      }
+  ]
+  
