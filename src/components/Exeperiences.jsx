@@ -5,7 +5,7 @@ function Exeperiences() {
     <section className="job" aria-label="Expériences professionnelles">
       <article>
         <h3>Développeuse Web et Web Mobile – Stage</h3>
-        <p>Développement d'un site vitrine</p>
+        <p>Développement d'un site vitrine  - Pneus Express, Stiring-Wendel | 2023</p>
       </article>
       
       <article>

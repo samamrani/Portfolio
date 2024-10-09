@@ -4,7 +4,7 @@ function Competence(){
     return (
        
       <section className="container info" id="competence">
-        <h1>Compétences</h1>
+        <h2>Compétences</h2>
         <Competences />
       </section>
        

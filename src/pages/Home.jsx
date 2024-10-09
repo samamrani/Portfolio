@@ -5,7 +5,9 @@ function Home() {
   return (
   <>
     <section className="container info" id='home'>
+      
       <InformationPerso />
+    
     </section>
   </>
   );
